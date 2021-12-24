@@ -11,7 +11,7 @@ body{
 .container{
     margin-right: auto;
     margin-left: auto;
-    width: 1300px;   
+    width: 1190px;
 }
 
 .style-none{
@@ -36,20 +36,24 @@ body{
     margin-right: 0;
 }
 .header-top{
-    padding: 5px 0;
+    padding:5px 90px;
     display: flex;
     justify-content: end;
-    margin-left: auto;
 }
 .header-info{
     padding: 16px 0;
 }
 .header-inner{
+    padding:0 90px 0 90px;
     background-color: #DF7C14;
 }
-.header-nav{
-    margin-right: 157px;
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .display{
     display: flex;
     justify-content: space-between;
@@ -85,17 +89,12 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.nav-item{
-    margin-right: 65px;
-}
-.nav-item:last-child{
-    margin-right: 0;
-}
+
 .her-section{
     background-color: #FDF6EE;
 }
 .logo-inner{
-    margin-right: 500px;
+    margin-right: 300px;
 }
 .hero-img:after{
     content: '';
@@ -208,27 +207,32 @@ body{
     width: 826px;
     margin-bottom: 24px;
 }
-
+.industry-img-phone{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26px;
+}
 
 .industry-img{
     display: block;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
-/* .industry-text{
+.industry-text-inner{
+    width: 750px;
+    margin-bottom: 26px;
+    align-items: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 820px;
-    margin-bottom: 40px;
-} */
+    margin-bottom: 50px;
+}
 .industr-item{
     width: 250px;
     padding:15px 15px;
-    margin-right: 40px;
-    margin-bottom: 50px;
+    margin-right: 45px;
 }
 .industr-list{
     display: flex;
@@ -236,6 +240,9 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 100px;
+}
+.industry-text{
+    margin-bottom: 26px;
 }
 
 .loree{
@@ -258,7 +265,7 @@ body{
     border-radius: 20px;
     padding: 35px 35px;
     width: 378px;
-    margin-right: 38px;
+    margin-right: 15px;
 }
 .loree-item:last-child{
     margin-right: 0;
@@ -311,4 +318,9 @@ body{
 .arrow-link{
     /* display: block;
     margin-left: auto; */
+}
+.loree-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
