@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 body{
-    padding: 0 15px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -47,6 +46,9 @@ body{
 }
 .header-inner{
     background-color: #DF7C14;
+}
+.header-nav{
+    margin-right: 157px;
 }
 .display{
     display: flex;
@@ -90,7 +92,10 @@ body{
     margin-right: 0;
 }
 .her-section{
-    background-color:#FDF6EE ;
+    background-color: #FDF6EE;
+}
+.logo-inner{
+    margin-right: 500px;
 }
 .hero-img:after{
     content: '';
@@ -209,12 +214,109 @@ body{
 }
 
 .industry-img{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
 }
 .industry-text{
     margin: 0 auto; 
     margin-bottom: 26px;
 }
+.industr-item{
+    width: 250px;
+    padding:15px 15px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.industr-item:last-child{
+    margin-right: 0;
+}
+.industr-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
 
+.item-4:last-child{
+   margin-right: 0; 
+}
+.item-5{
+    margin-left: 300px;
+}
+.loree{
+    background-color: #F5F5F5;
+}
+.loree-inner{
+    padding-top: 69px;
+    padding-bottom: 100px;
+}
+.loree-text{
+    margin-bottom: 65px;
+}
+.loree-text-inner{
+    width: 300px;
+    margin-bottom: 28px;
+}
+.loree-item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 35px 35px;
+    width: 378px;
+    margin-right: 38px;
+}
+.loree-item:last-child{
+    margin-right: 0;
+}
+.loree-title-red:before{
+    content: '';
+    display: block;
+    width: 140px ;
+    height: 39px;
+    background-image: url('../images/loree-red.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 19px;
 
+}
+.loree-title-pink:before{
+    content: '';
+    display: block;
+    width: 140px ;
+    height: 39px;
+    background-image: url('../images/loree-pink.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 19px;
 
+}
+.loree-title-blue:before{
+    content: '';
+    display: block;
+    width: 140px ;
+    height: 39px;
+    background-image: url('../images/loree-blue.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 19px;
+
+}
+.loree-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #DC7000;
+    margin-right: 12px;
+}
+.loree-div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.arrow-link{
+    /* display: block;
+    margin-left: auto; */
+}
