@@ -323,7 +323,12 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.loree-info-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
+}
 
 .project-inner{
     padding-top: 141px;
@@ -522,9 +527,6 @@ body{
 }
 .footer-inner{
     padding: 100px 120px 53px 100px;
-    /* padding: 0 100px;
-    padding-top: 66px;
-    padding-bottom: 53px; */
 }
 .footer-logo{
     margin-bottom: 20px;
