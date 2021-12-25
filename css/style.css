@@ -173,7 +173,6 @@ body{
 }
 .hero-info-text{
     margin-bottom: 46px;
-    width: 545px;
     font-size: 16px;
     line-height: 187.5%;
     color: #525252;
@@ -249,7 +248,6 @@ body{
     margin-bottom: 65px;
 }
 .loree-text-inner{
-    width: 300px;
     margin-bottom: 28px;
 }
 .loree-item{
@@ -523,9 +521,10 @@ body{
     background: #1B1B1B;
 }
 .footer-inner{
-    padding: 0 100px;
+    padding: 100px 120px 53px 100px;
+    /* padding: 0 100px;
     padding-top: 66px;
-    padding-bottom: 53px;
+    padding-bottom: 53px; */
 }
 .footer-logo{
     margin-bottom: 20px;
@@ -563,8 +562,9 @@ body{
 }
 
 .social-box-inner{
+    padding-top: 130px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     
 }
