@@ -92,7 +92,7 @@ body{
 }
 
 .hero-section{
-    background-color: #FDF6EE;
+    background-color: #fff;
 }
 .hero-img:after{
     content: '';
@@ -144,6 +144,16 @@ body{
     line-height: 24px;
     color: #FFFFFF;
 }
+/* }
+.hero-section::after{
+    content: '';
+    display: block;
+    width: 1438px ;
+    height: 547px;
+    background-image: url('../images/hero-back.svg');
+    background-position: bottom cover;
+    background-repeat: no-repeat;
+} */
 .hero-inner{
     padding-top: 102px;
     margin-bottom: 106px;
@@ -472,8 +482,10 @@ body{
 }
 
 .form-loop{
+    padding: 70px 0;
     display: block;
-    margin-bottom: 36px;
+    margin: 0 auto;
+    align-items: center;
     display: flex;
     justify-content: center;
     width: 385px;
@@ -491,6 +503,8 @@ body{
     outline: none;
 }
 .btn{
+    width: 105px;
+    height: 48px;
     background: #DC7000;
     border-radius: 8px;
     font-size: 13px;
@@ -501,55 +515,12 @@ body{
     cursor: pointer;
 }
 
-/* .form{
-    display: block;
-    margin-bottom: 36px;
-    display: flex;
-    justify-content: space-between;
-    width: 472px;
-    height: 65px;
-}
-.input-text{
-    padding: 6px 0px 6px 24px; 
-    background: #FFFFFF;
-    border: 1px solid #F2EFE6;
-    box-sizing: border-box;
-    width: 346px;
-    height: 65px;
-    outline: none; 
-    font-size: 18px;
-    line-height: 27px;
-    color: #021206;
-    opacity: 0.5;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
-}
-.hero-btn{
-    display: block;
-    display: block;
-    background-color: #F44545;
-    border-radius: 6px;
-    cursor: pointer;
-    border: none;
-}
-.hero-btn-link{
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 31px;
-    color: #FFFFFF;
-    padding: 6px 33px;
-    text-decoration: none;
-} */
-
-
-
-
-
 
 
 
 
 .footer-box-section{
-    background-color: #F8F8F8;    
+    background-color: #000;    
 }
 .footer-inner{
     padding-top: 64px;
@@ -571,7 +542,7 @@ body{
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    color: #021206;
+    color: #fff;
     opacity: 0.7;
     text-decoration: none;
 }
@@ -581,7 +552,7 @@ body{
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    color: #0B132A;
+    color: #fff;
 } 
 
 .logo-item{
@@ -591,14 +562,17 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: #4F5665;
+    color: #fff;
     margin-bottom: 30px;
 }
 .foot-text-icon{
     font-size: 16px;
     line-height: 30px;
-    color: #AFB5C0;
+    color: #fff;
 }
 .foot-icon-box{
     margin-bottom: 30px;
+}
+.subscribe-section{
+    margin-bottom: 148px;
 }
