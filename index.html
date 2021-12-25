@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital agency</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700&family=Lexend+Deca:wght@300;400;500&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/col.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -57,7 +57,7 @@
             <div class="lorem-inner col-12">
                 <h3 class="title lorem-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
                 <div class="lorem-info col-6">
-                    <h2 class="title hero-info-title">Lorem Ipsum</h2>
+                    <h2 class="title subs-inner-title">Lorem Ipsum</h2>
                     <p class="text hero-info-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                 </div>
                 <div class="lorem-img col-10">
@@ -108,7 +108,7 @@
         <div class="container">
             <div class="loree-inner">
                 <div class="loree-main-box col-12 row middle style-none"> <div class="loree-info col-6">
-                    <h2 class="hero-info-title title loree-title">Lorem Ipsum</h2>
+                    <h2 class="hero-info-title title subs-inner-title">Lorem Ipsum</h2>
                     <p class="hero-info-text text loree-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     </div>
                     <div class="loree-info-box col-6">
@@ -193,70 +193,50 @@
                         </div>
                         <div class="subs-left col-5">
                             <form class="form-loop" action="https://echo.htmlacademy.ru">
-                                <input class="form-input" type="text" name="email" placeholder="Enter email address" required>
-                                <button class="btn" type="submit">Continue</button>                               
+                                <div class="form-input-div">
+                                    <input class="form-input" type="text" name="email" placeholder="Enter email address" required>
+                                <button class="btn" type="submit">Continue</button> 
+                                </div>                              
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="footer-box-section">
-            <div class="container">
-                <div class="footer-inner col-12 row middle">
-                    <div class="col-3">
-                        <ul class="footer-list-inner style-none">
-                            <li class="foot-list-item logo-item">
-                                <img class="footer-T-logo" src="images/Logo.svg" alt="logo" width="149" height="36">
-                            </li>
-                            <li class="foot-list-item"> <p class="footer-right-text">
-                                    LaslesVPN is a private virtual network that has unique features and has high security.
-                                </p>
-                            </li>
-                            <li class="foot-list-item">
-                                <div class="foot-icon-box">
-                                <a href="#"><img src="images/Facebook.svg" alt="img" width="60" height="60"></a>
-                                <a href="#"><img src="images/Twitter.svg" alt="img" width="60" height="60"></a>
-                                <a href="#"><img src="images/Instagram.svg" alt="img" width="60" height="60"></a>
-                                <p class="foot-text-icon">©2020LaslesVPN</p>
-                            </div>
-                            </li>
-                        </ul>
+       <section class="footer-section">
+        
+               <div class="footer-inner row between">
+                    <div class="footer-logo-box">
+                        <img class="footer-logo" src="images/LOGO.svg" alt="img" width="71" height="19">
+                        <p class="footer-text text-logo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        <a class="footer-text text-none" href="#">@Company.com</a>
                     </div>
-                    
-            
-                    <div class="footer-box col-3">
-                        <h4 class="footer-title">Product</h4>
-                        <ul class="footer-list-inner style-none">
-                            <li class="foot-list-item"><a class="footer-link" href="#">Download</a>
-                            <li class="foot-list-item"><a class="footer-link" href="#">Pricing</a></li>
-                            <li class="foot-list-item"><a class="footer-link" href="#">Location</a></li>
-                            <li class="foot-list-item"><a class="footer-link" href="#">Server</a></li>
-                            <li class="foot-list-item"><a class="footer-link" href="#">Countries</a></li>
-                            <li class="foot-list-item"><a class="footer-link" href="#">Blog</a></li>
-                        </ul>
+                    <div class="footer-about-box">
+                       <h4 class="footer-title footer-text">About us</h4>
+                       <ul class="footer-list style-none">
+                           <li class="footer-item "><a class="footer-link text-none" href="#">Company</a></li>
+                           <li class="footer-item "><a class="footer-link text-none" href="#">Portfolio</a></li>
+                           <li class="footer-item "><a class="footer-link text-none" href="#">Careers</a></li>
+                           <li class="footer-item "><a class="footer-link text-none" href="#">About us</a></li>
+                       </ul>
                     </div>
-                    <div class="footer-box col-3">
-                        <h4 class="footer-title">Engage</h4>
-                        <ul class="footer-list-inner style-none">
-                            <li class="foot-list-item"><a class="footer-link" href="#">LaslesVPN</a></li>
-                            <li class="foot-list-item"><a class="footer-link" href="#">FAQ</a></li>
-                            <li class="foot-list-item"><a class="footer-link" href="#">Tutorials</a></li>   
-                            <li class="foot-list-item"><a class="footer-link" href="#">About us</a></li>   
-                            <li class="foot-list-item"><a class="footer-link" href="#">Privacy policy</a></li> 
-                            <li class="foot-list-item"><a class="footer-link" href="#">Terms of service</a></li>                      
-                        </ul>
-                    </div>
-                    <div class="footer-box col-3">
-                        <h4 class="footer-title">Earn Money</h4>
-                        <ul class="footer-list-inner style-none">
-                            <li class="foot-list-item"><a class="footer-link" href="#">Affiliate</a></li>
-                            <li class="foot-list-item"><a class="footer-link" href="#">Become Partner</a></li>                   
-                        </ul>
-                    </div>
-                   
-                </div>
-                </div>
-        </section>
+                    <div class="footer-contact-box">
+                        <h4 class="footer-title footer-text">Contact</h4>
+                        <p class="footer-text contact-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="footer-text">+9000 0000 000</p>
+                   </div>
+                   <div class="social-box">
+                        <div class="social-box-inner">
+                            <a class="facebook" href="#"><img src="images/facebook.svg" alt="img" width="34" height="34"></a>
+                            <a class="instagram" href="#"><img src="images/instagram.svg" alt="img" width="34" height="34"></a>
+                            <a class="twitter" href="#"><img src="images/twitter.svg" alt="img" width="34" height="34"></a>
+                            <a class="linkidin" href="#"><img src="images/linkedin.svg" alt="img" width="34" height="34"></a>
+                        </div> 
+                   </div>
+            </div>
+            <hr  class="footer-hr">
+            <p class=" footer-text footer-copyright">Copyright ® 2021 Company All rights Rcerved</p>
+        
+       </section>
         
 </body>
 </html>
