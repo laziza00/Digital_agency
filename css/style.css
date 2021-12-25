@@ -90,7 +90,12 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
+.hero-section{
+    background-image: url('../images/hero-back.svg');
+    background-position: center bottom;
+    background-size: 1438px 547px;
+    background-repeat: no-repeat;
+}
 .hero-section{
     background-color: #fff;
 }
@@ -144,19 +149,10 @@ body{
     line-height: 24px;
     color: #FFFFFF;
 }
-/* }
-.hero-section::after{
-    content: '';
-    display: block;
-    width: 1438px ;
-    height: 547px;
-    background-image: url('../images/hero-back.svg');
-    background-position: bottom cover;
-    background-repeat: no-repeat;
-} */
+
 .hero-inner{
     padding-top: 102px;
-    margin-bottom: 106px;
+    padding-bottom: 106px;
 }
 .lorem-inner{
     padding-top: 83px;
@@ -183,7 +179,6 @@ body{
     color: #525252;
 }
 .text{
-    width: 545px;
     font-size: 16px;
     line-height: 187.5%;
     color: #525252
@@ -366,7 +361,7 @@ body{
 .three::after{
     content: '';
     display: block;
-    width: 382px;
+    width: 352px;
     height: 223px;
     background-image: url(../images/project-4.png);
     background-position: 0 0;
@@ -375,7 +370,7 @@ body{
 .four::after{
     content: '';
     display: block;
-    width: 382px;
+    width: 246px;
     height: 223px;
     background-image: url(../images/project-6.png);
     background-position: 0 0;
@@ -384,7 +379,7 @@ body{
 .five::after{
     content: '';
     display: block;
-    width: 382px;
+    width: 401px;
     height: 223px;
     background-image: url(../images/prohject-5.png);
     background-position: 0 0;
@@ -393,7 +388,7 @@ body{
 .six::after{
     content: '';
     display: block;
-    width: 382px;
+    width: 469px;
     height: 223px;
     background-image: url(../images/project-7.png);
     background-position: 0 0;
@@ -402,7 +397,6 @@ body{
 
 .project-list{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -491,6 +485,12 @@ body{
     width: 385px;
     height: 48px;
 }
+.form-input-div{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 2px 2px;
+    display: flex;
+}
 .form-input{
     width: 274px;
     background: #FFFFFF;
@@ -501,8 +501,10 @@ body{
     color: #898989;
     padding: 14px 0 14px 20px;
     outline: none;
+    border: none;
 }
 .btn{
+    border: none;
     width: 105px;
     height: 48px;
     background: #DC7000;
@@ -514,65 +516,55 @@ body{
     padding: 8px 15px;
     cursor: pointer;
 }
-
-
-
-
-
-.footer-box-section{
-    background-color: #000;    
-}
-.footer-inner{
-    padding-top: 64px;
-    padding-bottom: 100px;
-}
-.footer-box{
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-.foot-list-item{
-    text-align: center;
-    margin-bottom: 10px;
-}
-.foot-list-inner{
-       
-}
- .footer-link{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 160%;
-    color: #fff;
-    opacity: 0.7;
-    text-decoration: none;
-}
-.footer-title{
-    opacity: 0.7;
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    color: #fff;
-} 
-
-.logo-item{
-    margin-bottom: 20px;
-}
-.footer-right-text{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: #fff;
-    margin-bottom: 30px;
-}
-.foot-text-icon{
-    font-size: 16px;
-    line-height: 30px;
-    color: #fff;
-}
-.foot-icon-box{
-    margin-bottom: 30px;
-}
 .subscribe-section{
     margin-bottom: 148px;
+}
+.footer-section{
+    background: #1B1B1B;
+}
+.footer-inner{
+    padding: 0 100px;
+    padding-top: 66px;
+    padding-bottom: 53px;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer-item{
+    margin-bottom: 10px;
+}
+.text-logo{
+    width: 372px;
+}
+.footer-link{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 186.3%;
+    color: #FFFFFF;
+}
+.contact-text{
+    width: 282px;
+}
+.footer-copyright{
+    text-align: center;
+    padding: 29px 0;
+    margin: 0;
+}
+.facebook{
+    display: block;
+    text-decoration: none;
+}
+
+.social-box-inner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
